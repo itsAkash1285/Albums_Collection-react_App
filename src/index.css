@@ -1,13 +1,171 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F2F2F2;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Navbar component style */
+.navbar {
+  width: 100%;
+  height: 8%;
+  padding: 20px 10px;
+  background: linear-gradient(to left top, #e0c3fc, #8ec5fc);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.navbar h2 {
+  /* background-color: #FD0102; */
+  width: fit-content;
+  padding: 2px;
+  color: white;
+}
+
+.navbar button {
+  background-color: transparent;
+  color: #f7f4f9;
+  border: 2px solid #fbfbfc;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: large;
+  text-align: center;
+}
+
+
+/* AlbumsList component style */
+.albums-list {
+  width: 70%;
+  margin: auto;
+  padding-top: 73px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* List component style */
+.list {
+  width: 310px;
+  height: 200px;
+  background: linear-gradient(to left top, #e0c3fc, #8ec5fc);
+  border: 5px solid black;
+  margin-bottom: 5px;
+  color: rgb(251, 248, 248);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list h3 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.button-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-btn {
+  background-color: rgb(249, 250, 249);
+  color: black;
+  border: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.update-btn:hover {
+  background-color: white;
+  color: rgb(9, 120, 44);
+}
+
+.delete-btn {
+  cursor: pointer;
+  border: 0px;
+  padding: 10px 20px;
+  background-color: rgb(251, 249, 249);
+  color: black;
+}
+
+.delete-btn:hover {
+  color: red;
+  background-color: white;
+}
+
+/* UpdateAlbum component style */
+.update-album {
+  width: 350px;
+  margin: auto;
+  padding-top: 73px;
+  color: white;
+}
+
+.form-container {
+  /* background-color: #6b6e71;  */
+  background: linear-gradient(to left top, #e0c3fc, #8ec5fc);
+  padding: 10px;
+  margin-top: 50px;
+  border: 5px solid black;
+}
+
+.inp-container {
+  margin: 10px;
+}
+
+.form-container button {
+  background-color: rgb(246, 250, 246);
+  padding: 10px 20px;
+  color: black;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+/* addAlbum container style */
+.addalbum-container {
+  color: white;
+  padding-top: 73px;
+  width: 350px;
+  margin: auto;
+}
+
+.addalbum-form {
+  padding: 10px;
+  background: linear-gradient(to left top, #e0c3fc, #8ec5fc);
+  margin-top: 50px;
+  border: 5px solid black;
+}
+
+.addalbum-form button {
+  background-color: rgb(244, 250, 245);
+  padding: 10px 20px;
+  color: black;
+  margin-left: 110px;
+
 }
