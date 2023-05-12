@@ -1,3 +1,9 @@
+Hosted Link : https://akash-albums-collection-reactapp.netlify.app/
+
+
+
+![Screenshot (19)](https://github.com/itsAkash1285/Albums_Collection-react_App/assets/111186744/2b421b7c-a5f0-4ac7-855f-7a73318b2875)
+![Screenshot (20)](https://github.com/itsAkash1285/Albums_Collection-react_App/assets/111186744/bd7d6b9b-86f7-4a67-a907-82a2ac5b4ab0)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
